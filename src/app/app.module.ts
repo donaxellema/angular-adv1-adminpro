@@ -12,12 +12,14 @@ import { AppComponent } from './app.component';
 import { RegisterComponent } from './auth/register/register.component';*/
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
-
+//cuando creo un componente automaticamente se coloca en la parte global del module en algunos casos 
+//si sera de utilidad hacer esto pero en otros casos habra que eliminar de las declaraciones 
+//
 @NgModule({
   declarations: [
     AppComponent,
-    
     NopagefoundComponent,
+    
 
   ],
   imports: [
