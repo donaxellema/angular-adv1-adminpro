@@ -4,6 +4,8 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
+//↓parte angular//
+const customInitFunctions=()=>{
 $(function() {
     "use strict";
     $(function() {
@@ -153,5 +155,8 @@ $(function() {
     $('a[data-action="close"]').on('click', function() {
         $(this).closest('.card').removeClass().slideUp('fast');
     });
-
 });
+}
+customInitFunctions();
+
+//↑parte angular//
